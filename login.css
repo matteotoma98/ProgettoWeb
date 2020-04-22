@@ -55,6 +55,22 @@ body{
   overflow: hidden;
 }
 
+/*logo*/
+.topnav img {
+    float: left;
+}
+
+/*titolo*/
+.topnav div {
+    float: left;
+    margin-right: 10%;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
