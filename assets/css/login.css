@@ -15,10 +15,14 @@ body{
     text-align: center;
 }
 
-.box h1{
+.box option.select_placeholder {
+    color:ghostwhite
+}
+
+.box h2{
     color: white;
     text-transform: uppercase;
-    font-weight: 500;
+    font-size: 1.875em;
 }
 
 .box input[type="text"], .box input[type="password"]{
