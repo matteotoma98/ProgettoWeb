@@ -11,18 +11,18 @@ Push Giovi
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="css/login.css">
     </head>
     <body>
         <header>
             <div class="topnav">
                 <a href="#home">Home</a>
-                <a href="#news">HOME</a>
+                <a href="#news">News</a>
                 <a href="#contact">PRODOTTI</a>
                 <a class="active" href="#about">ACCOUNT</a>
             </div>
         </header>
-        <div style="text-align: center">
+        <div style="text-align: center" class="box">
             <form>
                 <input style="width: 30%; height: 30px" type="text" placeholder="Username">
                 <br>
@@ -33,16 +33,18 @@ Push Giovi
                 <input style="width: 30%; height: 30px" type="text" placeholder="Indirizzo di residenza">
                 <br>
                 <input style="width: 15%; height: 30px" type="date" placeholder="Data di nascita">
-                <select style="width: 15%; height: 30px">
+                <br>
+                <div class="custom-select" style="width:570px;">
+                <select style="width: 28%; height: 35px">
                     <option value="0">Studente</option>
                     <option value="1">Operaio</option>
                     <option value="2">Libero professionista</option>
                     <option value="3">Disoccupato</option>
                 </select>
+                </div>
                 <br>
-
                 <input type="submit" value="Registrati">
-
+                <br> 
             </form>
             <b> Possiedi già un account? <a href="login.html" target="_blank"> ACCEDI </a> </B>
         </div>
