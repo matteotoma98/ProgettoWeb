@@ -14,39 +14,42 @@ body{
     background: #656565;
     text-align: center;
 }
+
 .box h1{
     color: white;
     text-transform: uppercase;
     font-weight: 500;
 }
-.box input[type="text"], .box input[type="password"]{
+
+.box input[type="text"], .box input[type="password"], .box input[type="date"]{
     border: 0;
     background: #ffffff;
     display: block;
     margin: auto;
     text-align: center;
     padding: 3% 3%;
-    width: 20%;
+    width: 25%;
     outline: none;
     color: black;
     border-radius: 10px;
     transition: 0.25s;
 }
 
-
-.box input[type="date"], .box input[type="date"]{
+.box input[type="date"]{
+    float:left;
     border: 0;
     background: #ffffff;
     display: block;
     margin: auto;
     text-align: center;
     padding: 3% 3%;
-    width: 20%;
+    width: 25%;
     outline: none;
     color: black;
     border-radius: 10px;
     transition: 0.25s;
 }
+
 .box b{
     border: 0;
     background: none;
@@ -57,7 +60,7 @@ body{
     color: white;
     transition: 0.25s;  
 } 
-.box a, a:visited {
+.box a, .box a:visited {
   text-decoration: none;
   color: #009eff;
 }
@@ -83,7 +86,7 @@ body{
     display: block;
     margin: auto;
     text-align: center;
-    width: 20%;
+    width: 25%;
     padding: 3% 3%;
     outline: none;
     color: black;
