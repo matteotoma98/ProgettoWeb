@@ -22,7 +22,7 @@ body{
 .box h2{
     color: white;
     text-transform: uppercase;
-    font-size: 1.875em;
+    font-size: 300%;
 }
 
 .box input[type="text"], .box input[type="password"]{
@@ -112,21 +112,25 @@ body{
 }
 
 /*titolo*/
-.topnav div {
+.topnav span{
     float: left;
-    margin-right: 10%;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 5px;
     text-decoration: none;
+    padding-top:10px;
     font-size: 30px;
+}
+.topnav .homelink {
+    padding-top: 1px;
+    margin-right: 10%;
+    color: #f2f2f2;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
 }
