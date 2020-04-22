@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
     background: #484848;
 }
-.box{
+.account_box{
     width: 30%;
     height: 100%;
     padding: 3%;
@@ -15,17 +15,17 @@ body{
     text-align: center;
 }
 
-.box option.select_placeholder {
+.account_box option.select_placeholder {
     color:ghostwhite
 }
 
-.box h2{
+.account_box h2{
     color: white;
     text-transform: uppercase;
     font-size: 300%;
 }
 
-.box input[type="text"], .box input[type="password"]{
+.account_box input[type="text"], .account_box input[type="password"]{
     border: 0;
     background: #ffffff;
     display: block;
@@ -39,12 +39,12 @@ body{
     transition: 0.25s;
 }
 
-.box div.date_job {
+.account_box div.date_job {
     text-align: center;
     margin: auto;
 }
 
-.box input[type="date"]{
+.account_box input[type="date"]{
     border: 0;
     background: #ffffff;
     text-align: center;
@@ -56,7 +56,7 @@ body{
     transition: 0.25s;
 }
 
-.box b{
+.account_box b{
     border: 0;
     background: none;
     display: block;
@@ -66,14 +66,14 @@ body{
     color: white;
     transition: 0.25s;  
 } 
-.box a, .box a:visited {
+.account_box a, .account_box a:visited {
   text-decoration: none;
   color: #009eff;
 }
-.box input[type="text"]:focus, .box input[type="password"]:focus{
+.account_box input[type="text"]:focus, .account_box input[type="password"]:focus{
     width: 65%;
 }
-.box input[type="submit"]{
+.account_box input[type="submit"]{
     border: 0;
     background: #009eff;
     display: block;
@@ -87,7 +87,7 @@ body{
     cursor: pointer;
 }
 
-.box select {
+.account_box select {
     border: 0;
     margin-left: 2%;
     text-align: center;
