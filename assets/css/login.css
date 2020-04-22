@@ -28,7 +28,7 @@ body{
     margin: auto;
     text-align: center;
     padding: 3% 3%;
-    width: 25%;
+    width: 57%;
     outline: none;
     color: black;
     border-radius: 10px;
@@ -67,7 +67,7 @@ body{
   color: #009eff;
 }
 .box input[type="text"]:focus, .box input[type="password"]:focus{
-    width: 50%;
+    width: 65%;
 }
 .box input[type="submit"]{
     border: 0;
@@ -85,9 +85,9 @@ body{
 
 .box select {
     border: 0;
-    margin-left: 10px;
+    margin-left: 2%;
     text-align: center;
-    width: 25%;
+    width: 30%;
     padding: 3% 3%;
     outline: none;
     color: black;
