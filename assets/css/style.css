@@ -5,6 +5,7 @@ body{
     background: #484848;
 }
 .account_box{
+	padding: 5% 0;
     width: 30%;
     position: relative;
     left: 50%;
@@ -161,10 +162,20 @@ body{
     padding-bottom: 2%;
     margin-top: 2%;
     line-height: 25px;
+	height: 100%;
 }
 
 .main_footer a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+.main_footer span{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	margin: auto;
+	color: white;
+	text-align: center;
 }
