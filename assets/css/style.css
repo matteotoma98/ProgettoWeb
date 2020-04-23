@@ -157,7 +157,6 @@ body{
 
 .main_footer {
     background-color: #202020;
-    padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 2%;
@@ -166,15 +165,13 @@ body{
 }
 
 .main_footer a{
+    margin-left: 5%;
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
 
-.main_footer span{
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%);
+.main_footer div{
 	margin: auto;
 	color: white;
 	text-align: center;
