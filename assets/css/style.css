@@ -6,7 +6,6 @@ body{
 }
 .account_box{
     width: 30%;
-    height: 100%;
     padding: 3%;
     position: absolute;
     left: 50%;
@@ -150,4 +149,12 @@ body{
 .topnav a.active {
   background-color: #009eff ;
   color: white;
+}
+
+.main_footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: #202020;
 }
