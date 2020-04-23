@@ -7,8 +7,9 @@ body{
 .account_box{
     width: 30%;
     padding: 3%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%);
     background: #656565;
     text-align: center;
 }
@@ -155,6 +156,5 @@ body{
 }
 
 .main_footer {
-    width: 100%;
     background-color: #202020;
 }
