@@ -6,7 +6,6 @@ body{
 }
 .account_box{
     width: 30%;
-    padding: 3%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -157,4 +156,15 @@ body{
 
 .main_footer {
     background-color: #202020;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    line-height: 25px;
+}
+
+.main_footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
