@@ -1,16 +1,12 @@
 body{
-    height: 100%;
-    min-height: 100%;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background: #484848;
 }
 .account_box{
-    min-height: 100%;
     width: 30%;
     padding: 3%;
-    position: absolute;
     left: 50%;
     transform: translate(-50%,0%);
     background: #656565;
@@ -159,8 +155,6 @@ body{
 }
 
 .main_footer {
-    height: 200px;
-    margin-top: -200px;
     width: 100%;
     background-color: #202020;
 }
