@@ -1,6 +1,6 @@
 *{
-	font-family: 'Baloo Paaji 2', cursive;
-	
+    font-family: 'Baloo Paaji 2', cursive;
+
 }
 
 body{
@@ -10,9 +10,9 @@ body{
     background: #484848;
 }
 .account_box{
-	padding: 5% 0;
+    padding: 5% 0;
     width: 30%;
-	margin: auto;
+    margin: auto;
     background: #656565;
     text-align: center;
 }
@@ -115,7 +115,7 @@ body{
     width: 45px;
     height: 45px;
     float: left;
-	margin-top: 3px;
+    margin-top: 3px;
 }
 /*titolo*/
 .topnav span{
@@ -124,7 +124,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-	font-weight: 800;
+    font-weight: 800;
 }
 .topnav a.homelink {
     float: left;
@@ -148,13 +148,13 @@ body{
     padding: 12px 16px;
     text-decoration: none;
     font-size: 17px;
-	font-weight: 500;
+    font-weight: 500;
 }
 /* Change the color of links on hover */
 .topnav li:hover{
     background-color: #ddd;
     color: black;
-	font-weight: 500;
+    font-weight: 500;
 }
 
 /* Add a color to the active/current link */
@@ -163,6 +163,7 @@ body{
     color: white;
 }
 .topnav li a {
+    padding: 12px 16px;
     color: inherit;
     text-decoration: none;
 }
@@ -173,7 +174,7 @@ body{
     padding-bottom: 2%;
     margin-top: 2%;
     line-height: 25px;
-	height: 100%;
+    height: 100%;
 }
 
 .main_footer a{
@@ -184,23 +185,23 @@ body{
 }
 
 .main_footer div{
-	margin: auto;
-	color: white;
-	text-align: center;
+    margin: auto;
+    color: white;
+    text-align: center;
 }
 .main_footer a:hover{
     text-decoration: underline;
 }
 
 .home_box{
-	padding: 2.5% 0;
+    padding: 2.5% 0;
     width: 90%;
-	margin: auto;
+    margin: auto;
     background: #656565;
     text-align: center;
 }
 
 #coverpic{
-	width: 100%;
-	margin: 0;
+    width: 100%;
+    margin: 0;
 }
