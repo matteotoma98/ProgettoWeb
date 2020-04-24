@@ -182,7 +182,7 @@ body{
     text-align: left; 
     margin-top: 12px;
     min-width: 140px;
-    
+    color: black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -243,18 +243,19 @@ body{
 
 
 .sidenav{
+    transform: translateY(-20%);
     background-color: #a3a3a3;
     width: 20%;
     float: left;
     margin: 0 5%;
 }
 .sidenav ul{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 .search_bar{
     width: 70%;
     transform: translate(15%);
-    margin: 10% 16% 0 16%;
+    margin: 5% 16% 0 16%;
     background: #919191;
 }
 .search_bar input[type="text"]{
