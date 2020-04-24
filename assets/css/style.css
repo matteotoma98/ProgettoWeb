@@ -170,6 +170,10 @@ body{
     text-decoration: none;
 }
 
+#dummy{
+    position: static;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -222,7 +226,7 @@ body{
 }
 
 .home_box{
-    padding: 2.5% 0;
+    padding: 0;
     width: 90%;
     margin: auto;
     background: #656565;
@@ -233,8 +237,6 @@ body{
     width: 100%;
     margin: 0;
 }
-
-
 
 
 
