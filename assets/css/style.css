@@ -243,11 +243,16 @@ body{
 
 
 .sidenav{
-    transform: translateY(-20%);
+    position: relative;
     background-color: #a3a3a3;
     width: 20%;
+    height: 100%;
     float: left;
     margin: 0 5%;
+}
+.products_content {
+    margin: 0;
+    padding-top: 5%;
 }
 .sidenav ul{
     padding-top: 10%;
@@ -255,7 +260,7 @@ body{
 .search_bar{
     width: 70%;
     transform: translate(15%);
-    margin: 5% 16% 0 16%;
+    margin: 0% 16% 0 16%;
     background: #919191;
 }
 .search_bar input[type="text"]{
