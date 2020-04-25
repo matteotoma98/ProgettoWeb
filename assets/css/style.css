@@ -150,7 +150,7 @@ body{
     font-weight: 500;
 }
 .topnav li.spacer {
-    margin-left: 50%;
+    margin-left: 75.26%;
 }
 /* Change the color of links on hover */
 .topnav li:hover{
@@ -247,10 +247,12 @@ body{
 .sidenav{
     position: relative;
     background-color: #a3a3a3;
+    transform: translateY(-8%);
+    transform: translateX(-25%);
     width: 20%;
     height: 100%;
     float: left;
-    margin: 0 5%;
+    margin: 0 5% ;
 }
 .products_content {
     margin: 0;
@@ -258,16 +260,17 @@ body{
 }
 .sidenav ul{
     padding-top: 10%;
+    transform: translateX(20%);
 }
 .search_bar{
     width: 70%;
     transform: translate(15%);
-    margin: 0% 16% 0 16%;
+    margin: -2% 16% 0 16%;
     background: #919191;
 }
 .search_bar input[type="text"]{
     float: left;
-    transform: translate(-20%);
+    transform: translate(-26%);
     border: 0;
     background: #919191;
     display: block;
