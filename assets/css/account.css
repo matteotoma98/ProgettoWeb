@@ -1,0 +1,93 @@
+
+
+.account_box{
+    padding: 5% 0;
+    width: 30%;
+    margin: auto;
+    background: #656565;
+    text-align: center;
+}
+
+.account_box option.select_placeholder {
+    color:ghostwhite
+}
+
+.account_box h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.account_box input[type="text"], .account_box input[type="password"]{
+    border: 0;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3% 3%;
+    width: 59%;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.account_box div.date_job {
+    text-align: center;
+    margin: auto;
+}
+
+.account_box input[type="date"]{
+    border: 0;
+    background: #ffffff;
+    text-align: center;
+    padding: 3% 3%;
+    width: 25%;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.account_box b{
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    outline: none;
+    color: white;
+    transition: 0.25s;  
+} 
+.account_box a, .account_box a:visited {
+    text-decoration: none;
+    color: #009eff;
+}
+.account_box input[type="text"]:focus, .account_box input[type="password"]:focus{
+    width: 65%;
+}
+.account_box input[type="submit"]{
+    border: 0;
+    background: #009eff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3% 3%;
+    width: 20%;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.account_box select {
+    border: 0;
+    margin-left: 2%;
+    text-align: center;
+    width: 32%;
+    padding: 3% 3%;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}

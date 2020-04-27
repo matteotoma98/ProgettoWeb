@@ -1,0 +1,55 @@
+.sidenav{
+    position: relative;
+    background-color: #a3a3a3;
+    transform: translateY(-8%);
+    transform: translateX(-25%);
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0 5% ;
+}
+.products_content {
+    margin: 0;
+    padding-top: 5%;
+}
+.sidenav ul{
+    padding-top: 10%;
+    transform: translateX(20%);
+}
+.search_bar{
+    width: 70%;
+    transform: translate(15%);
+    margin: -2% 16% 0 16%;
+    background: #919191;
+}
+.search_bar input[type="text"]{
+    float: left;
+    transform: translate(-26%);
+    border: 0;
+    background: #919191;
+    display: block;
+    width: 70%;
+    padding: 1% 0;
+    outline: none;
+    color: white;
+    font-size: 250%;
+}
+.search_bar input[type="submit"]{
+    border: 0;
+    background: #009eff;
+    display: block;
+    text-align: center;
+    width: 10%;
+    padding: 1% 0;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 250%;
+}
+.products_box{
+    width: 70%;
+    margin: 1% 16% 0 16%;
+    transform: translate(15%);
+    background: #656565;
+    text-align: center;
+}
