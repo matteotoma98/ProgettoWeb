@@ -4,13 +4,41 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 27-apr-2020, 17.01.09
+    Created on : 27-apr-2020, 17.36.41
     Author     : Matteo
 */
 
+.contattaci{ 
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;   
+}
 .about{ 
     margin:auto;
     color: white;
     text-align: center;
-    font-size: 27px;
+    font-size: 15px;   
 }
+.contattaci p{
+    font-size: 18px;
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;  
+}
+
+.about ul{
+    width: 50%; 
+    padding:0;
+    margin-left: auto;
+    margin-right: auto
+}
+.about li {
+    float:left;
+    padding: 4px 80px 2px 2px; 
+    margin-left: auto;
+    margin-right: auto
+}
+a[href^="mailto"] { color: red; }
+
