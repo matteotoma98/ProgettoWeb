@@ -12,7 +12,7 @@
 }
 .sidenav ul{
     padding-top: 10%;
-    transform: translateX(20%);
+    padding-left: 40%;
 }
 .search_bar{
     width: 100%;
