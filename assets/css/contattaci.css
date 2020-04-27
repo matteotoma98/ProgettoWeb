@@ -8,3 +8,26 @@ and open the template in the editor.
     Author     : Matteo
 */
 
+.contattaci{ 
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;   
+}
+.contattaci p{
+      font-size: 18px;
+}
+
+.about ul{
+    width: 50%; 
+    margin:auto;
+    padding:0;
+    left:5%;
+}
+.about li {
+    float:left;
+    padding: 4px 80px 2px 2px; 
+    margin: 0px 10px;    
+}
+a[href^="mailto"] { color: red; }
+
