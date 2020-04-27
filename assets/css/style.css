@@ -149,8 +149,9 @@ body{
     font-size: 17px;
     font-weight: 500;
 }
-.topnav li.spacer {
-    margin-left: 75.26%;
+.topnav #account{
+    float: right;
+    margin-right:5%;
 }
 /* Change the color of links on hover */
 .topnav li:hover{
@@ -194,7 +195,8 @@ body{
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: red;
+    color: white;
+    background-color: #00b6ff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
