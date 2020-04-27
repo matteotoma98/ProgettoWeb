@@ -91,3 +91,8 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+#error_msg {
+    font-size: 27px;
+    color: #ff837a;
+}
