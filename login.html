@@ -14,10 +14,12 @@ Push Giovi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/account.css">
+        <link rel="stylesheet" href="assets/css/social.css">
+        <script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
     </head>
     <body>
         <header>
-            <nav class="topnav">
+            <nav id="topnav">
                 <a class="homelink" href="home.html">
                     <img src="assets/img/logo.png">
                     <span> OASIS </span>
@@ -35,26 +37,7 @@ Push Giovi
                         </div>
                     </li>
                 </ul>
-            </nav>
-            <nav class="topnav" id="dummy">
-                <a class="homelink" href="home.html">
-                    <img src="assets/img/logo.png">
-                    <span> OASIS </span>
-                </a>
-                <ul>
-                    <li class ="active"><a href="home.html">HOME</a></li>
-                    <li><a href="products.html">PRODOTTI</a></li>
-                    <li id="account">
-                        <div class="dropdown">
-                            <a href="#about">ACCOUNT</a>
-                            <div class="dropdown-content">
-                                <a href="login.html">ACCEDI</a>
-                                <a href="signup.html">REGISTRATI</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>       
+            </nav>  
         </header>
         <div class="account_box">
             <h2> Accedi </h2>
@@ -74,9 +57,14 @@ Push Giovi
             <a href="about.html"> Contattaci </a>
             <br>
             <a href="privacypolicy.html"> Privacy e policy </a>
-            <br>
-            <a href="linksocial.html"> Link social </a>         
-            <br>
+            <div class="linksocial">
+                <img src="assets/img/social-icons.png" usemap="#social-icons-map">
+                <map name="social-icons-map">
+                    <area target="_blank" alt="instagram" title="instagram" href="https://www.instagram.com/" coords="134,157,154,146,162,132,164,68,158,48,136,31,68,31,48,41,36,63,36,127,46,145,64,157" shape="poly">
+                    <area target="_blank" alt="facebook" title="facebook" href="https://www.facebook.com/" coords="250,158,354,158,364,145,364,43,354,30,248,30,236,41,236,148" shape="poly">
+                    <area target="_blank" alt="twitter" title="twitter" href="https://twitter.com/" coords="436,135,452,141,466,145,478,145,490,145,502,143,512,137,522,133,530,127,536,117,542,111,546,101,548,89,550,79,550,67,564,55,554,55,560,43,544,47,538,45,532,41,526,41,518,41,510,45,506,48,500,52,498,62,500,73,492,73,482,71,474,69,464,65,458,59,452,53,446,47,444,51,442,58,442,66,446,75,452,81,440,77,442,85,446,93,454,103,448,103,452,111,460,117,468,123,466,129,452,131" shape="poly">
+                </map>
+            </div>
             <div> © 2020  Oasis </div>
         </footer>
     </body>
