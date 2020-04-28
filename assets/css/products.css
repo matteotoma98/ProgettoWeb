@@ -1,15 +1,17 @@
+.products_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
 .sidenav{
     background-color: #a3a3a3;
     width: 20%;
-    float: left;
-    margin-left: 2%;
-    height: 700px;
+    margin: 0 2%;
 }
 
 .products_content {
     width: 73%;
-    margin-left: 25%;
-    padding-top: 2%;
+    padding: 1% 0 2% 0;
 
 }
 .sidenav ul{
