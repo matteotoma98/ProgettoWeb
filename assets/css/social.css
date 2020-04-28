@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-apr-2020, 17.37.13
+    Author     : Matteo
+*/
+
+.social{ 
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;   
+}
+.social{ 
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;   
+}
+.social p{
+    margin:auto;
+    color: white;
+    text-align: center;
+    font-size: 25px;  
+
+}
+.social a{
+        font-style: italic;
+}
+
+.social ul{
+    width: 50%; 
+    padding:0;
+    margin-left: auto;
+    margin-right: auto
+}
+.social li {
+    float:left;
+    padding: 4px 80px 2px 2px; 
+    margin-left: auto;
+    margin-right: auto
+}
+.mainfooter img{
+
+  border-radius: 8px;
+ border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.main_footer {
+    background-color: #202020;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 25px;
+    height: 100%;
+    
+}
+.linksocial{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;   
+  zoom: .3;
+}
+a[href^="https"] { color: blue; }
