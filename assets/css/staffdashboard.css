@@ -1,0 +1,44 @@
+.staffnav_items{
+	padding: 7% 3%;
+	display: block;
+	line-height: 35px;
+}
+.staffnav_items img{
+	display: inline-flex;
+    width: 35px;
+    height: 35px;
+	
+}
+
+.staffnav_items a{
+	display: inline-flex;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 35px;
+}
+
+.staffnav_items a,span{
+	text-decoration: none;
+	color: white;
+}
+
+.staff_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.staff_sidenav{
+    background-color: #a3a3a3;
+    width: 20%;
+    margin: 0 2%;
+}
+
+
+.side_container{
+    margin-top: 1%;
+    width: 73%;
+    background: #656565;
+    text-align: center;
+	margin-bottom: 2%;
+}
+
