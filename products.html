@@ -14,10 +14,11 @@ Push Giovi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/products.css">
+		
     </head>
     <body>
         <header>
-            <nav class="topnav">
+            <nav id="topnav">
                 <a class="homelink" href="home.html">
                     <img src="assets/img/logo.png">
                     <span> OASIS </span>
@@ -35,28 +36,9 @@ Push Giovi
                         </div>
                     </li>
                 </ul>
-            </nav>
-            <nav class="topnav" id="dummy">
-                <a class="homelink" href="home.html">
-                    <img src="assets/img/logo.png">
-                    <span> OASIS </span>
-                </a>
-                <ul>
-                    <li class ="active"><a href="home.html">HOME</a></li>
-                    <li><a href="products.html">PRODOTTI</a></li>
-                    <li id="account">
-                        <div class="dropdown">
-                            <a href="#about">ACCOUNT</a>
-                            <div class="dropdown-content">
-                                <a href="login.html">ACCEDI</a>
-                                <a href="signup.html">REGISTRATI</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </nav>       
         </header>
-        <div class="products_main">
+        <div id="main" class="products_main">
         <div class="sidenav">
             <ul>
                 <li> Categoria 1 </li>
@@ -120,4 +102,5 @@ Push Giovi
             <div> © 2020  Oasis </div>
         </footer>
     </body>
+	<script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
 </html>
