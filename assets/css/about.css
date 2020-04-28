@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Matteo
 */
 
-.contattaci{ 
+.contact{ 
     margin:auto;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ and open the template in the editor.
     text-align: center;
     font-size: 15px;   
 }
-.contattaci p{
+.contact p{
     font-size: 18px;
     margin:auto;
     color: white;

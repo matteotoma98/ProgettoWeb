@@ -104,7 +104,7 @@ body{
     display: block;
 }
 .dropdown-content a:hover {
-    color: white;
+    color: white !important;
     background-color: #00b6ff;
 }
 .dropdown:hover .dropdown-content {
