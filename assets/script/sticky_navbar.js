@@ -12,7 +12,7 @@ window.onload = function() {
 	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 	function myFunction() {
 		if (window.pageYOffset >= sticky) {
-			main_content.style.padding="54px 0 0 0";
+			if (main_content!=null) main_content.style.padding="54px 0 0 0";
 			navbar.classList.add("sticky");
 		} else {
 			navbar.classList.remove("sticky");
