@@ -55,6 +55,10 @@ body{
     font-size: 17px;
     font-weight: 500;
 }
+#topnav .areariservata{
+    float: right;
+    
+}
 #topnav #account{
     float: right;
     margin-right:5%;

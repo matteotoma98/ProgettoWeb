@@ -24,9 +24,9 @@ Push Giovi
                     <span> OASIS </span>
                 </a>
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
+                    <li class ="active"><a href="home.html">HOME</a></li>
                     <li><a href="products.html">PRODOTTI</a></li>
-                    <li id="account" class ="active">
+                    <li id="account">
                         <div class="dropdown">
                             <a href="#about">ACCOUNT</a>
                             <div class="dropdown-content">
@@ -35,38 +35,40 @@ Push Giovi
                             </div>
                         </div>
                     </li>
+                    <li class="areariservata"><a href="staffdashboard.html">AREA STAFF</a></li>
+                    <li class="areariservata"><a href="admindashboard.html">AREA ADMIN</a></li>
                 </ul>
             </nav>      
         </header>
         <div id="main">
-        <div class="account_box">
-            <h2> Registrati </h2>
-            <form>
-                <input type="text" placeholder="Username">
-                <br>
-                <input type="text" placeholder="Email">
-                <br>
-                <input type="password" placeholder="Password">
-                <br>
-                <input type="text" placeholder="Indirizzo di residenza">
-                <br>
-                <div class="date_job">
-                    <input  type="date" placeholder="Data di nascita">
-                    <select id="select">
-                        <option class="select_placeholder" value="" disabled selected hidden>Occupazione</option>
-                        <option value="0">Studente</option>
-                        <option value="1">Operaio</option>
-                        <option value="2">Libero professionista</option>
-                        <option value="3">Disoccupato</option>
-                    </select>
-                </div>
-                <br>
-                <input type="submit" value="Registrati">
-                <br> 
-            </form>
-            <b> Possiedi già un account? <a href="login.html"> ACCEDI </a> </b>
-            <div id="error_msg"> Password errata! </div>
-        </div>
+            <div class="account_box">
+                <h2> Registrati </h2>
+                <form>
+                    <input type="text" placeholder="Username">
+                    <br>
+                    <input type="text" placeholder="Email">
+                    <br>
+                    <input type="password" placeholder="Password">
+                    <br>
+                    <input type="text" placeholder="Indirizzo di residenza">
+                    <br>
+                    <div class="date_job">
+                        <input  type="date" placeholder="Data di nascita">
+                        <select id="select">
+                            <option class="select_placeholder" value="" disabled selected hidden>Occupazione</option>
+                            <option value="0">Studente</option>
+                            <option value="1">Operaio</option>
+                            <option value="2">Libero professionista</option>
+                            <option value="3">Disoccupato</option>
+                        </select>
+                    </div>
+                    <br>
+                    <input type="submit" value="Registrati">
+                    <br> 
+                </form>
+                <b> Possiedi già un account? <a href="login.html"> ACCEDI </a> </b>
+                <div id="error_msg"> Password errata! </div>
+            </div>
         </div>
         <footer class="main_footer">
             <a href="about.html"> Contattaci </a>
