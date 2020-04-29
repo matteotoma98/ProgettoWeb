@@ -1,7 +1,7 @@
 
 
 .account_box{
-    padding: 0 0 7%;
+    padding: 1% 0 4%;
     width: 30%;
 	margin-top: 0;
     margin-left: auto;
@@ -9,6 +9,11 @@
     margin-bottom: 2%;
     background: #656565;
     text-align: center;
+}
+
+#login {
+	padding-top: 4.9%;
+	padding-bottom: 8%;
 }
 
 .account_box option.select_placeholder {
