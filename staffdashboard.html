@@ -8,23 +8,25 @@ and open the template in the editor.
     <head>
         <title>Oasis Staff</title>
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/products.css">
-        <link rel="stylesheet" href="assets/css/staffdashboard.css">
-        <script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
+		<link rel="stylesheet" href="assets/css/staffdashboard.css">
+		<script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
     </head>
     <body>
-        <header>
+ <header>
             <nav id="topnav">
                 <a class="homelink" href="home.html">
                     <img src="assets/img/logo.png">
                     <span> OASIS </span>
                 </a>
                 <ul>
-                    <li class ="active"><a href="home.html">HOME</a></li>
+                    <li><a href="home.html">HOME</a></li>
                     <li><a href="products.html">PRODOTTI</a></li>
+                    <li><a href="howtobuy.html">COME ACQUISTARE</a></li>
                     <li id="account">
                         <div class="dropdown">
                             <a href="#about">ACCOUNT</a>
@@ -34,57 +36,48 @@ and open the template in the editor.
                             </div>
                         </div>
                     </li>
-                    <li class="areariservata"><a href="staffdashboard.html">AREA STAFF</a></li>
-                    <li class="areariservata"><a href="admindashboard.html">AREA ADMIN</a></li>
+                    <li id="staff" class="active"><a href="staffdashboard.html">AREA STAFF</a></li>
+                    <li id="admin"><a href="admindashboard.html">AREA ADMIN</a></li>
                 </ul>
             </nav>
         </header>
         <div class="staff_main" id="main">
-            <div class="staff_sidenav">
-                <div class="staffnav_items">
-                    <a href="#addcat"><img src="assets/img/add_white.png"><span>Aggiungi categoria</span></a><br>
-                    <a href="#addsub"><img src="assets/img/add_white.png">Aggiungi sottoategoria</a><br>   
-                    <a href="#addprod"><img src="assets/img/add_white.png">Aggiungi prodotto</a><br>   
-                    <a href="#editcat"><img src="assets/img/edit_white.png">Modifica categoria</a><br>   
-                    <a><img src="assets/img/edit_white.png">Modifica sottocategoria</a><br>   
-                    <a><img src="assets/img/edit_white.png">Modifica prodotto</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina categoria</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina sottocategoria</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina prodotto</a><br>
-                </div>
-            </div>
-            <div class="side_container">
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-
-            </div>
+        <div class="staff_sidenav">
+			<div class="staffnav_items">
+				<a href="#addcat"><img src="assets/img/add_white.png">Aggiungi categoria</a><br>
+				<a href="#addsub"><img src="assets/img/add_white.png">Aggiungi sottoategoria</a><br>   
+				<a href="#addprod"><img src="assets/img/add_white.png">Aggiungi prodotto</a><br>   
+				<a href="#editcat"><img src="assets/img/edit_white.png">Modifica categoria</a><br>   
+				<a><img src="assets/img/edit_white.png">Modifica sottocategoria</a><br>   
+				<a><img src="assets/img/edit_white.png">Modifica prodotto</a><br>
+				<a><img src="assets/img/delete_white.png">Elimina categoria</a><br>
+				<a><img src="assets/img/delete_white.png">Elimina sottocategoria</a><br>
+				<a><img src="assets/img/delete_white.png">Elimina prodotto</a><br>
+				</div>
+        </div>
+        <div class="side_container">
+			<div class="sc_content">
+				<form action="staffdashboard.html" method="post">
+           		<h1 id="sc_title">Aggiungi prodotto</h1><br>
+          		<div style="display: flex"><h3 class="sc_hint">Nome Prodotto</h3>
+				<input class="sc_textinput" type="text" id="prodname" ></div>
+					
+				<div class="sc_nested"><img id="sc_addpic" src="https://i.imgur.com/hiKw7xS.png"></div>
+					
+								<div style="display: grid">
+						<h3 class="sc_hint">Descrizione breve</h3>
+						<input class="sc_textinput" type="text" id="shortdesc"><br><br><br>
+						<h3 class="sc_hint">Prezzo</h3>
+						<input class="sc_textinput" type="text" id="price"><br>
+						<h3 class="sc_hint">Sconto per membri</h3>
+						<input class="sc_textinput" type="text" id="discount"><br>
+						<h3 class="sc_hint">Marca</h3>
+						<input class="sc_textinput" type="text" id="brand">
+					
+								</div>
+				</form>
+			</div>
+        </div>
         </div>
         <footer class="main_footer">
             <a href="about.html"> Contattaci </a>
