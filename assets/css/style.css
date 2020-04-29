@@ -55,10 +55,6 @@ body{
     font-size: 17px;
     font-weight: 500;
 }
-#topnav .areariservata{
-    float: right;
-    
-}
 #topnav #account{
     float: right;
     margin-right:5%;
@@ -69,11 +65,13 @@ body{
     color: black;
     font-weight: 500;
 }
-
 /* Add a color to the active/current link */
 #topnav li.active{
     background-color: #009eff ;
     color: white;
+}
+#topnav #staff,#topnav #admin{
+    float: right;
 }
 #topnav li a {
     padding: 12px 16px;
@@ -82,10 +80,10 @@ body{
 }
 
 .sticky {
-	position: fixed;
+    position: fixed;
     z-index: 994;
-	width: 100%;
-	top:0;
+    width: 100%;
+    top:0;
 }
 
 .dropdown {
