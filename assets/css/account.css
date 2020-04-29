@@ -1,9 +1,11 @@
 
 
 .account_box{
-    padding: 5% 0;
+    padding: 0 0 7%;
     width: 30%;
-    margin: auto;
+	margin-top: 0;
+    margin-left: auto;
+	margin-right: auto;
     margin-bottom: 2%;
     background: #656565;
     text-align: center;
