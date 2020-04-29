@@ -1,5 +1,5 @@
 *{
-    font-family: 'Baloo Paaji 2', cursive;
+ font-family: 'Lato', sans-serif;
 
 }
 
@@ -129,6 +129,10 @@ body{
 }
 .linksocial{
     zoom: .3;
+    -moz-transform: scale(.3);
+}
+map area{
+    outline: none;
 }
 
 .main_footer div{
