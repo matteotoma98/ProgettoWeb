@@ -144,6 +144,7 @@ map area{
     margin: auto;
     color: white;
     text-align: center;
+	width: max-content;
 }
 .main_footer a:hover{
     text-decoration: underline;
@@ -163,3 +164,11 @@ map area{
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
+.copyright:hover + .hide {
+    display: block;
+    color: gray;
+}

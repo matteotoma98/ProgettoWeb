@@ -57,28 +57,39 @@ and open the template in the editor.
             </div>
             <div class="side_container">
                 <div class="sc_content">
-                    <form action="staffdashboard.html" method="post">
+                   <form action="staffdashboard.html" method="post">
                         <h1 id="sc_title">Aggiungi prodotto</h1><br>
-                        <div style="display: flex"><h3 class="sc_hint">Nome Prodotto</h3>
+                        <div class="out_prodname"><h3 class="sc_hint">Nome Prodotto</h3>
                             <input class="sc_textinput" type="text" id="prodname" ></div>
 
-                        <div class="sc_nested"><img id="sc_addpic" src="https://i.imgur.com/hiKw7xS.png"></div>
+<div class="alpha">
+                       <img id="sc_addpic" src="https://i.imgur.com/hiKw7xS.png">
 
-                        <div style="display: grid">
+                <div class="bravo">
+					<div class="bravo_desc">
                             <h3 class="sc_hint">Descrizione breve</h3>
-                            <input class="sc_textinput" type="text" id="shortdesc"><br><br><br>
+                            <input class="sc_textinput" type="text" id="shortdesc">
+						</div>
+				<div class="bravo_triple">
+					<div class="bravo_price">
                             <h3 class="sc_hint">Prezzo</h3>
-                            <input class="sc_textinput" type="text" id="price"><br>
-                            <h3 class="sc_hint">Sconto per membri</h3>
-                            <input class="sc_textinput" type="text" id="discount"><br>
-                            <h3 class="sc_hint">Marca</h3>
-                            <input class="sc_textinput" type="text" id="brand">
+							<input class="sc_textinput" type="text" id="price"></div>
+					<div class="bravo_discount">
+                            <h3 class="sc_hint">Sconto membri</h3>
+                            <input class="sc_textinput" type="text" id="discount"></div>
+                    <div class="bravo_brand">
+							<h3 class="sc_hint">Marca</h3>
+                            <input class="sc_textinput" type="text" id="brand"></div>
+						
+                       </div>
+</div>
+	</div>
+                   </form>
 
-                        </div>
-                    </form>
-                </div>
+				
+				
             </div>
-        </div>
+        </div></div>
         <footer class="main_footer">
             <a href="about.html"> Contattaci </a>
             <br>
