@@ -3,20 +3,35 @@
     height: 100%;
     display: flex;
 }
+
 .sidenav{
     background-color: #a3a3a3;
+    color: white;
     width: 20%;
     margin: 0 2%;
+    text-align: center;
+    font-size: 30pt;
+}
+.cat{
+    margin: 10% 0;
+}
+.cat a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sub{
+    display: none;
+    font-size: 24pt;
+}
+.cat:hover .sub{
+    display: block;
 }
 
 .products_content {
     width: 73%;
     padding: 1% 0 2% 0;
+    text-align: center;
 
-}
-.sidenav ul{
-    padding-top: 10%;
-    padding-left: 40%;
 }
 .search_bar{
     width: 100%;
@@ -49,5 +64,28 @@
     width: 100%;
     background: #656565;
     text-align: center;
+}
+.page_nav{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 18pt;
+    background-color: #919191;
+}
+.page_nav a{
+    margin: 0;
+    padding: 5px;
+    color: #202020;
+    cursor: pointer;
+}
+.page_nav a:hover{
+    text-decoration: underline;
+}
+.page_nav #ctrl{
+    background-color: #a3a3a3;
+    color: white;
+    margin: 0;
+    text-decoration: none !important;
 }
 
