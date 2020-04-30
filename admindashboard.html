@@ -6,14 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Oasis Staff</title>
+        <title>Oasis Admin</title>
         <meta charset="UTF-8">
 
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/products.css">
-        <link rel="stylesheet" href="assets/css/staffdashboard.css">
+        <link rel="stylesheet" href="assets/css/admindashboard.css">
         <script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
     </head>
     <body>
@@ -36,14 +36,14 @@ and open the template in the editor.
                             </div>
                         </div>
                     </li>
-                    <li id="staff" class="active"><a href="staffdashboard.html">AREA STAFF</a></li>
-                    <li id="admin"><a href="admindashboard.html">AREA ADMIN</a></li>
+                    <li id="staff"><a href="staffdashboard.html">AREA STAFF</a></li>
+                    <li id="admin" class="active"><a href="admindashboard.html">AREA ADMIN</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="staff_main" id="main">
-            <div class="staff_sidenav">
-                <div class="staffnav_items">
+        <div class="admin_main" id="main">
+            <div class="admin_sidenav">
+                <div class="adminnav_items">
                     <a href="#addcat"><img src="assets/img/add_white.png">Aggiungi categoria</a><br>
                     <a href="#addsub"><img src="assets/img/add_white.png">Aggiungi sottoategoria</a><br>   
                     <a href="#addprod"><img src="assets/img/add_white.png">Aggiungi prodotto</a><br>   
@@ -57,7 +57,7 @@ and open the template in the editor.
             </div>
             <div class="side_container">
                 <div class="sc_content">
-                    <form action="staffdashboard.html" method="post">
+                    <form action="admindashboard.html" method="post">
                         <h1 id="sc_title">Aggiungi prodotto</h1><br>
                         <div style="display: flex"><h3 class="sc_hint">Nome Prodotto</h3>
                             <input class="sc_textinput" type="text" id="prodname" ></div>

@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-apr-2020, 10.27.08
+    Author     : Matteo
+*/
+
+.adminnav_items{
+    padding: 7% 3%;
+    display: block;
+    line-height: 35px;
+}
+.adminnav_items img{
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%) brightness(500%);
+    transition: 0.25s;	
+}
+
+.adminnav_items a{
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    transition: 0.25s;
+}
+
+.adminnav_items a,span{
+    text-decoration: none;
+    color: white;
+}
+.adminnav_items a:hover {
+    color: #00b6ff;
+}
+.adminnav_items a:hover>img {
+    filter: initial;
+}
+
+.admin_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+}
+.admin_sidenav{
+    background-color: #a3a3a3;
+    width: 20%;
+    margin: 0 2%;
+}
+
+
+.side_container{
+    margin-top: 1%;
+    width: 73%;
+    background: #656565;
+    text-align: center;
+    margin-bottom: 2%;
+}
+/*Contentuto di side_container (usato per mettere un padding a tutto)*/
+.sc_content{
+    padding: 0% 3% 3% 3%;
+}
+
+#sc_title{
+    text-align: left;
+    color: #008CFF;
+    font-size: 50px;
+}
+#sc_addpic{
+    width: 40%;
+    height: 40%;
+    display: block;
+}
+
+.sc_hint{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    text-align: start;
+    width: max-content;
+    height: max-content;
+}
+
+.sc_textinput{
+    border: 0;
+    background: #ffffff;
+    display: block;
+    padding: 0.3% 0.5%;
+    font-size: 20pt;
+    text-align: left;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    float: inline-end;
+}
+
+#prodname.sc_textinput {
+    width: 80%;
+    margin: 0 0 0 10px;
+}
+#shortdesc.sc_textinput {
+    width:50%;
+    float: inline-start;
+}
+#price.sc_textinput {
+    width:10%;
+    float: inline-start;
+}
+#discount.sc_textinput {
+    width:25%;
+    float: inline-start;
+}
+#brand.sc_textinput {
+    width:15%;
+    float: inline-start;
+}
+.sc_nested{
+    padding-top: 20px;
+    text-align: left;
+}
+
+
