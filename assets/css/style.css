@@ -21,7 +21,6 @@ body{
     width: 45px;
     height: 45px;
     float: left;
-    margin-top: 3px;
 }
 /*titolo*/
 #topnav span{
@@ -31,6 +30,7 @@ body{
     text-decoration: none;
     font-size: 30px;
     font-weight: 800;
+    margin-top: 4px;
 }
 #topnav a.homelink {
     float: left;
