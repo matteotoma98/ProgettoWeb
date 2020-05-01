@@ -1,5 +1,5 @@
 *{
- font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -60,7 +60,7 @@ body{
     width: 140px;
     text-align: left;
     margin-right:5%;
-	padding:0;
+    padding:0;
 }
 /* Change the color of links on hover */
 #topnav li:hover{
@@ -74,7 +74,7 @@ body{
     color: white;	
 }
 #topnav li.active #profile img{
-	filter: invert(100%);
+    filter: invert(100%);
 }
 #topnav #staff,#topnav #admin{
     float: right;
@@ -88,11 +88,11 @@ body{
     width: 21px;
     height: 21px;
     float:right;
-	margin-right: 10px;
-	filter: invert(100%);
+    margin-right: 10px;
+    filter: invert(100%);
 }
 #profile{
-	padding-right: 0px !important;
+    padding-right: 0px !important;
 }
 .sticky {
     position: fixed;
@@ -104,8 +104,8 @@ body{
 .dropdown {
     position: relative;
     display: inline-block;
-	padding: 12px 0;
-	width: 100%
+    padding: 12px 0;
+    width: 100%
 }
 
 .dropdown-content {
@@ -128,7 +128,7 @@ body{
 }
 .dropdown:hover .dropdown-content{
     display: block;
-	
+
 }
 .dropdown:hover #profile img {
     filter: initial;
@@ -160,7 +160,7 @@ map area{
     margin: auto;
     color: white;
     text-align: center;
-	width: max-content;
+    width: max-content;
 }
 .main_footer a:hover{
     text-decoration: underline;

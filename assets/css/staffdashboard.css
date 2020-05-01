@@ -1,27 +1,27 @@
 .staffnav_items{
-	padding: 7% 3%;
-	display: block;
-	line-height: 35px;
+    padding: 7% 3%;
+    display: block;
+    line-height: 35px;
 }
 .staffnav_items img{
-	display: inline-flex;
+    display: inline-flex;
     width: 35px;
     height: 35px;
-	filter: grayscale(100%) brightness(500%);
+    filter: grayscale(100%) brightness(500%);
     transition: 0.25s;	
 }
 
 .staffnav_items a{
-	display: inline-flex;
-	font-size: 30px;
-	font-weight: 500;
-	line-height: 35px;
-	transition: 0.25s;
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    transition: 0.25s;
 }
 
 .staffnav_items a,span{
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 .staffnav_items a:hover {
     color: #00b6ff;
@@ -34,7 +34,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-	text-align: left;
+    text-align: left;
 }
 .staff_sidenav{
     background-color: #a3a3a3;
@@ -48,74 +48,74 @@
     width: 73%;
     background: #656565;
     text-align: center;
-	margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 /*Contentuto di side_container (usato per mettere un padding a tutto)*/
 
 .sc_content{
-	padding: 0% 3% 3% 3%;
+    padding: 0% 3% 3% 3%;
 }
 .out_prodname{
-	display: grid;
-	grid-template-columns: 17% 83%;
-	grid-column-gap: 10px;
-	width: 100%;
+    display: grid;
+    grid-template-columns: 17% 83%;
+    grid-column-gap: 10px;
+    width: 100%;
 }
 
 #sc_title{
-	text-align: left;
-	color: #008CFF;
-	font-size: 50px;
+    text-align: left;
+    color: #008CFF;
+    font-size: 50px;
 }
 #sc_addpic{
-	display: inline-block;
-	width: 40%;
-	height: 40%;
-	border-radius: 10px;
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
 }
 
 .sc_hint{
-	color: white;
-	font-size: 30px;
-	margin: 0;
+    color: white;
+    font-size: 30px;
+    margin: 0;
 }
 
 .sc_textinput{
-	border: 0;
+    border: 0;
     background: #ffffff;
-	font-size: 20px;
+    font-size: 20px;
     outline: none;
     color: black;
     border-radius: 10px;
-	width: 100%;
-	padding: 0.5em;
-	box-sizing : border-box;
-	  min-width: 0;
+    width: 100%;
+    padding: 0.5em;
+    box-sizing : border-box;
+    min-width: 0;
 }
 .alpha{
-	margin-top: 10px;
-	display: block;
+    margin-top: 10px;
+    display: block;
 }
 .bravo{
-	display: inline-block;
-		margin-top: -500;
-	padding: 0;
+    display: inline-block;
+    margin-top: -500;
+    padding: 0;
 }
 .bravo_triple{
-	/*display: block;*/
-width: 100%;
+    /*display: block;*/
+    width: 100%;
 
 }
 .bravo_price, .bravo_discount, .bravo_brand{
-	display: inline-block;
-	width: 33%;
-	text-align: left
+    display: inline-block;
+    width: 33%;
+    text-align: left
 }
 .bravo_desc{
-	width: 100%;
-	text-align: left;
+    width: 100%;
+    text-align: left;
 }
 .delta{
-	text-align: left;
-	width: 100%;
+    text-align: left;
+    width: 100%;
 }
