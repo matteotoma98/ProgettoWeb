@@ -1,52 +1,52 @@
 
 #main {
-	text-align: center;
+    text-align: center;
 }
 .about-policy{ 
-	display: inline-block;
+    display: inline-block;
     color: white;
-	padding: 1% 2%;
-	margin-bottom: 2%;
+    padding: 1% 2%;
+    margin-bottom: 2%;
     text-align: center;
     font-size: 20px;
-	background-color: #656565;
+    background-color: #656565;
 }
 .about-policy ul{
     width: 100%; 
     padding:0;
     margin-left: auto;
     margin-right: auto;
-	display: flex;
+    display: flex;
 }
 .about-policy li {
     font-size: 18px;
     padding: 4px 80px 2px 2px; 
     font-size: 18px;
     color: white;
-	margin: auto;
+    margin: auto;
     text-align: center;
 }
 .about-policy h1 {
-	color: #B5DADE;
-	font-weight: 800;
+    color: #B5DADE;
+    font-weight: 800;
 }
 .about-policy h2 {
-	margin:35px 0 8px;
-	color: #B5DADE;
-	font-weight: 500;
+    margin:35px 0 8px;
+    color: #B5DADE;
+    font-weight: 500;
 }
 .about-policy h3 {
-	color: #CDE6F5;
-	margin: 0;
-	font-weight: 500;
+    color: #CDE6F5;
+    margin: 0;
+    font-weight: 500;
 }
 .about-policy p {
-	margin: 0;
+    margin: 0;
 }
 .about-policy a[href^="mailto"] {
-	text-decoration: none;
-	color: white; 
+    text-decoration: none;
+    color: white; 
 }
 .about-policy a[href^="mailto"]:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
