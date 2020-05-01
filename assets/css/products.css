@@ -15,16 +15,36 @@
 .cat{
     margin: 10% 0;
 }
-.cat a:hover{
-    text-decoration: underline;
+.cat a img{
+    position: relative;
+    left: 15px;
+    bottom: -4px;
+    width: 25px;
+    height: 35px;
+    transform: rotate(90deg);
+    transition: 0.25s;
+}
+.cat:hover a, .cat:hover img{
     cursor: pointer;
+}
+.cat:hover img{
+    transform: rotate(-90deg);
 }
 .sub{
     display: none;
     font-size: 24pt;
+    margin: 10%;
 }
 .cat:hover .sub{
     display: block;
+}
+.sub a:hover{
+    text-decoration: underline;
+}
+.sidenav hr{
+    margin: 0 5%;
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
 .products_content {
