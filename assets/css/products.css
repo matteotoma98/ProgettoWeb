@@ -93,22 +93,28 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: auto;
+    background-color: #a3a3a3;
+    width: 445px;
+    height: 100%;
     padding: 16px;
-    height: auto;
-    margin:auto;
-    text-align: left;
+    margin-top:16px;
+    text-align: justify; 
     font-family: lato;
     text-decoration: none;
-    margin-left: 0.5%;
+    overflow-wrap:break-word;
+    position:relative;
+    display:block;
+ 
 }
 
 .price {
-    color: red;
+    color: red; 
     text-align: center;
     font-size: 30px;
 }
 .name{
+    display:block;
+    width:100%;
     padding-left: 6px;
     color: whitesmoke;
 }
@@ -127,7 +133,14 @@
     cursor: pointer;
     font-size: 18px;
 }
+.card img{
+    height: 80%;
+    width: 80%;
+    display:block;
+    margin:auto;
 
+
+}
 .card button:hover {
     opacity: 0.8;
 }
@@ -141,12 +154,16 @@
 /* Float four columns side by side */
 .column {
     float: left;
+    height: 100%;
     width: auto;
     padding: 0 10px;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+    margin: 0 -5px;
+    height: max-content;
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
