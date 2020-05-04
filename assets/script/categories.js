@@ -9,13 +9,16 @@ window.onload = function() {
         
         var i;
         for(i = 0; i < cat.length; i++) {
-            cat[i].addEventListener("click",showHideSub(i));
+            cat[i].addEventListener("click",function() {
+                this.classList.toggle("rotate");
+                this.children[1].classList.toggle("show");
+            });
         }
 
 	// Show or hide the subcat when a cat is clicked
-	function showHideSub(index) {
-            cat[index].classList.toggle("rotate");
-            sub[index].classList.toggle("show");
+	function showHideSub() {
+            this.classList.toggle("rotate");
+            sub[0].classList.toggle("show");
 	};
 };
 
