@@ -27,16 +27,24 @@
 .cat:hover a, .cat:hover img{
     cursor: pointer;
 }
+/*
 .cat:hover img{
     transform: rotate(-90deg);
-}
+}*/
 .sub{
     display: none;
     font-size: 24pt;
     margin: 10%;
 }
+/*
 .cat:hover .sub{
     display: block;
+}*/
+.show{
+    display: block;
+}
+.rotate img{
+    transform: rotate(-90deg) !important;
 }
 .sub a:hover{
     text-decoration: underline;
