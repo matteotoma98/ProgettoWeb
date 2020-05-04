@@ -5,9 +5,10 @@
  */
 window.onload = function() {
 	var cat = document.getElementsByClassName("cat");
-        var sub = document.getElementsByClassName("sub");
+       
         
         var i;
+	// Show or hide the subcat when a cat is clicked
         for(i = 0; i < cat.length; i++) {
             cat[i].addEventListener("click",function() {
                 this.classList.toggle("rotate");
@@ -15,10 +16,7 @@ window.onload = function() {
             });
         }
 
-	// Show or hide the subcat when a cat is clicked
-	function showHideSub() {
-            this.classList.toggle("rotate");
-            sub[0].classList.toggle("show");
-	};
+
+
 };
 
