@@ -4,15 +4,18 @@
  * and open the template in the editor.
  */
 window.onload = function() {
-	var cat = document.getElementById("cat1");
-        var sub = document.getElementById("sub1");
+	var cat = document.getElementsByClassName("cat");
+        var sub = document.getElementsByClassName("sub");
         
-        cat.onclick = function() {showHideSub();};
+        var i;
+        for(i = 0; i < cat.length; i++) {
+            cat[i].addEventListener("click",showHideSub(i));
+        }
 
 	// Show or hide the subcat when a cat is clicked
-	function showHideSub() {
-            cat.classList.toggle("rotate");
-            sub.classList.toggle("show");
+	function showHideSub(index) {
+            cat[index].classList.toggle("rotate");
+            sub[index].classList.toggle("show");
 	};
 };
 
