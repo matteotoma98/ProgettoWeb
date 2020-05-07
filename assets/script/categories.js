@@ -10,9 +10,9 @@ window.onload = function() {
         var i;
 	// Show or hide the subcat when a cat is clicked
         for(i = 0; i < cat.length; i++) {
-            cat[i].addEventListener("click",function() {
+            cat[i].children[0].addEventListener("click",function() {
                 this.classList.toggle("rotate");
-                this.children[1].classList.toggle("show");
+                this.parentElement.children[1].classList.toggle("show");
             });
         }
 
