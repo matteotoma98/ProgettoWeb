@@ -12,7 +12,7 @@ window.onload = function() {
         for(i = 0; i < cat.length; i++) {
             cat[i].children[0].addEventListener("click",function() {
                 this.classList.toggle("rotate");
-                this.parentElement.children[1].classList.toggle("show");
+                this.nextElementSibling.classList.toggle("show");
             });
         }
 
