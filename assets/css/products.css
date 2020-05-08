@@ -145,11 +145,13 @@
     width:100%;
     padding-left: 6px;
     color: whitesmoke;
+    text-align: center;
 }
 .description{
     padding-left: 8px;
     color: whitesmoke;
     opacity: 0.9;
+    text-align: center;
 }
 .card button {
     border: none;
