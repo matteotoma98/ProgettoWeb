@@ -1,0 +1,53 @@
+.searchandbox{
+    margin-top: 1%;
+    width: 73%;
+    margin-bottom: 2%;
+}
+.list_box{
+    margin-top: 1%;
+    height: max-content;
+    background: #656565;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list_box hr{
+    margin: 0 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#title{
+    color: #009eff;
+    font-size: 30pt;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.productrow{
+    display: flex;
+    color: white;
+    cursor: pointer;
+}
+
+#p_img{
+    height: 150px;
+}
+#info{
+    margin: 5px 0;
+    width: 75%;
+}
+#name{
+    font-size: 24pt;
+    margin: 2px;
+}
+#code{
+    font-size: 16pt;
+    margin: 2px;
+}
+#description{
+    font-size: 16pt;
+    margin: 20px 2px;
+    overflow: hidden;
+}
+#price{
+    font-size: 30pt;
+}
