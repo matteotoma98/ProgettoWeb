@@ -94,7 +94,7 @@
 }
 .alpha{
     margin-top: 10px;
-    display: block;
+    display: flex;
 }
 .bravo{
     display: inline-block;

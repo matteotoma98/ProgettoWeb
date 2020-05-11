@@ -11,9 +11,11 @@ and open the template in the editor.
 
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/account.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/products.css">
         <link rel="stylesheet" href="assets/css/admindashboard.css">
+		
         <script type="text/javascript" src="assets/script/sticky_navbar.js"></script>
     </head>
     <body>
@@ -47,38 +49,30 @@ and open the template in the editor.
         <div class="admin_main" id="main">
             <div class="admin_sidenav">
                 <div class="adminnav_items">
-                    <a href="#addcat"><img src="assets/img/add_white.png">Aggiungi categoria</a><br>
-                    <a href="#addsub"><img src="assets/img/add_white.png">Aggiungi sottoategoria</a><br>   
-                    <a href="#addprod"><img src="assets/img/add_white.png">Aggiungi prodotto</a><br>   
-                    <a href="#editcat"><img src="assets/img/edit_white.png">Modifica categoria</a><br>   
-                    <a><img src="assets/img/edit_white.png">Modifica sottocategoria</a><br>   
-                    <a><img src="assets/img/edit_white.png">Modifica prodotto</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina categoria</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina sottocategoria</a><br>
-                    <a><img src="assets/img/delete_white.png">Elimina prodotto</a><br>
+                    <a href="#addcat"><img src="assets/img/add_white.png">Aggiungi staff</a><br>  
+                    <a><img src="assets/img/delete_white.png">Elimina staff</a><br>
+                    <a><img src="assets/img/delete_white.png">Elimina utente</a><br>
                 </div>
             </div>
             <div class="side_container">
                 <div class="sc_content">
-                    <form action="admindashboard.html" method="post">
-                        <h1 id="sc_title">Aggiungi prodotto</h1><br>
-                        <div style="display: flex"><h3 class="sc_hint">Nome Prodotto</h3>
-                            <input class="sc_textinput" type="text" id="prodname" ></div>
-
-                        <div class="sc_nested"><img id="sc_addpic" src="https://i.imgur.com/hiKw7xS.png"></div>
-
-                        <div style="display: grid">
-                            <h3 class="sc_hint">Descrizione breve</h3>
-                            <input class="sc_textinput" type="text" id="shortdesc"><br><br><br>
-                            <h3 class="sc_hint">Prezzo</h3>
-                            <input class="sc_textinput" type="text" id="price"><br>
-                            <h3 class="sc_hint">Sconto per membri</h3>
-                            <input class="sc_textinput" type="text" id="discount"><br>
-                            <h3 class="sc_hint">Marca</h3>
-                            <input class="sc_textinput" type="text" id="brand">
-
-                        </div>
-                    </form>
+					<h1 id="sc_title">Aggiungi staff</h1>
+                    <div class="account_box" id="admin_dash_box">
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <br>
+                    <input type="text" placeholder="Cognome">
+                    <br>
+                    <input type="text" placeholder="Username">
+                    <br>
+                    <input type="text" placeholder="Email">
+                    <br>
+                    <input type="password" placeholder="Password">
+                    <br>
+                    <input type="submit" value="Inserisci">
+                    <br> 
+                </form>
+            </div>
                 </div>
             </div>
         </div>
