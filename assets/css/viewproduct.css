@@ -1,0 +1,64 @@
+.view_box{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding-bottom: 20px !important;
+    background: #656565;
+    text-align: center;
+}
+.view_box #prod_img{
+    padding-top: 2%;
+    height: 300px;
+}
+.view_box #nameandprice{
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+}
+.view_box #nameandbrand{
+    margin-left: 30px;
+}
+.view_box #nameandbrand h1, .view_box #nameandbrand span{
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.view_box #prod_name{
+    font-size: 30pt;
+}
+.view_box #nameandbrand span{
+    font-size: 16pt;
+}
+.view_box #prod_name, .view_box #brand, .view_box #code{
+    color: #B5DADE;
+}
+.view_box #price{
+    font-size: 36pt;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+.view_box #prod_code{
+    text-align: left;
+    margin: 20px 0 15px 30px;
+    color: white;
+    font-size: 14pt;
+}
+.view_box hr{
+    margin: 0 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.view_box #description{
+    margin: 40px 30px;
+    color: white;
+    font-size: 16pt;
+}
+.view_box #buy{
+    padding: 5px;
+    background-color: #009eff;
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
