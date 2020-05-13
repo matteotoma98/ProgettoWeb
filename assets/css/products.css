@@ -13,45 +13,53 @@
     font-size: 30pt;
 }
 .cat{
-    margin: 10% 0;
+    margin-bottom: 2%;
 }
-.cat a img{
+
+
+.cat_name{
+	font-size: 20pt;
+	font-weight: 800;
+	color: white;
+}
+
+.subcat_name{
+	font-size: 17pt;
+	color: #CDFFF6;
+	font-weight: 600;
+}
+.cat  img{
     position: relative;
     left: 15px;
     bottom: -4px;
-    width: 25px;
-    height: 35px;
+    width: 15px;
+    height: 25px;
     transform: rotate(90deg);
     transition: 0.25s;
 }
 .cat:hover a, .cat:hover img{
     cursor: pointer;
 }
-/*
-.cat:hover img{
-    transform: rotate(-90deg);
-}*/
+
+
 .sub{
     display: none;
     font-size: 24pt;
-    margin: 10%;
+    margin: 2%;
 }
-/*
-.cat:hover .sub{
-    display: block;
-}*/
 .show{
     display: block;
 }
 .rotate img{
     transform: rotate(-90deg) !important;
 }
-.sub a:hover{
+.sub a:hover, .cat a:hover{
     text-decoration: underline;
 }
 .sidenav hr{
     margin: 0 5%;
-    border: 3px solid white;
+	margin-top: 10px;
+    border: 1.5px solid white;
     border-radius: 5px;
 }
 
@@ -64,6 +72,7 @@
 .search_bar{
     width: 100%;
     background: #919191;
+    text-align: left;
 }
 .search_bar input[type="text"]{
 
@@ -123,7 +132,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #a3a3a3;
     width: 445px;
-    height: 100%;
+    height: 475px;
     margin-top:16px;
     text-align: justify; 
     font-family: lato;
@@ -158,6 +167,7 @@
     display:block;
     width:100%;
     color: whitesmoke;
+	font-size: 20pt;
     text-align: left;
 		margin: 0;
 		text-align: justify;
@@ -168,23 +178,13 @@
     opacity: 0.9;
     text-align: center;
 }
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-}
+
 .card img{
-    height: 100%;
     width: 100%;
+	height: 50%;
+	object-fit: cover;
     display:block;
     margin:auto;
-
-
 }
 
 .card a[href^="account.html"]:hover {
@@ -209,6 +209,7 @@
 	padding: 10px;
 	justify-content: space-between;
 	width: 100%;
+	height: 50%;
 }
 
 .card_info, .card_prices{
