@@ -94,6 +94,22 @@ body{
 #profile{
     padding-right: 0px !important;
 }
+
+.mission_content{
+	height: fit-content;
+	width: 100%;
+	padding: 0.5% 0%;
+}
+.mission_title{
+	font-weight: 800;
+	color: #009eff;
+	margin: 10px 0px;
+}
+.mission{
+	color: white;
+		margin-top: 10px;
+}
+
 .sticky {
     position: fixed;
     z-index: 994;
@@ -178,6 +194,51 @@ map area{
 #coverpic{
     width: 100%;
     margin: 0;
+}
+#not_found{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#big{
+    font-size: 190pt;
+    font-weight: 800;
+    display: inline-block;
+}
+#small{
+    text-align: left;
+    padding-top: 10%;
+    display: inline-block;
+    transform: translateY(-40px);
+
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    width: 100%;
+
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+.centered a {
+    text-decoration: none;
+    color: #009eff;
+    font-weight: 600;
+}
+
+.centered span{
+    font-size: 20pt;
+    font-weight: 400;
 }
 
 .hide {
